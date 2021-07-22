@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="513.0" prefWidth="729.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.afpa.gui.FormController">
+   <children>
+      <AnchorPane prefHeight="651.0" prefWidth="729.0">
+         <children>
+            <Slider fx:id="redSlider" layoutX="48.0" layoutY="290.0" max="255.0" prefHeight="70.0" prefWidth="398.0" />
+            <Slider fx:id="greenSlider" layoutX="48.0" layoutY="409.0" max="255.0" prefHeight="70.0" prefWidth="398.0" />
+            <Slider fx:id="blueSlider" layoutX="48.0" layoutY="351.0" max="255.0" prefHeight="70.0" prefWidth="398.0" />
+            <Pane fx:id="bluePane" layoutX="483.0" layoutY="363.0" prefHeight="47.0" prefWidth="200.0" style="-fx-background-color: rgb(0,0,255);" />
+            <Pane fx:id="greenPane" layoutX="483.0" layoutY="421.0" prefHeight="47.0" prefWidth="200.0" style="-fx-background-color: rgb(0,255,0);" />
+            <Pane fx:id="redPane" layoutX="483.0" layoutY="302.0" prefHeight="47.0" prefWidth="200.0" style="-fx-background-color: rgb(255,0,0);" />
+            <Pane fx:id="mainPane" layoutX="23.0" layoutY="21.0" prefHeight="243.0" prefWidth="683.0" style="-fx-background-color: rgb(0,0,0);" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
